@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+header {
+    background-color: #0b132b;
+    height: 80px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header h2 {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+    color: #cbd5f5;
+    text-decoration: none;
+    padding-left: 15px;
+    font-size: 20px;
+}
+
+main div{
+    width: 1500px;
+    height: 400px;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.principal {
+    display: flex;
+    border-radius: 20px;
+    background-color: #eef2ff;
+    height: 600px;
+    width: 1400px;
+    align-items: center;
+}
+
+.titulo {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+}
+
+.p1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    color: rgb(85, 85, 85);
+}
+
+.b1 {
+    background-color: #4f46e5;
+    border-color: #4f46e5;
+    border-radius: 7px;
+    padding: 12px;
+    color: white;
+    width: 140px;
+    height: 48px;
+    font-size: 16px;
+}
+
+.div1{
+    height: 400px;
+    width: 600px;
+}
+
+.div2 {
+    background-color: #cbd5f5;
+    border-radius: 20px;
+    height: 350px;
+    width: 600px;
+    padding: 25px;
+}
+
+.imagen {
+    background-image: url(jasiel.png);
+    width: 575px;
+    height: 325px;
+    margin: 0;
+    border-radius: 20px;
+    border: 14px solid white;
+    box-shadow: 1px 1px 10px rgb(85, 85, 85);
+}
